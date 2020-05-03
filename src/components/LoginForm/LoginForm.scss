@@ -1,0 +1,84 @@
+.login-form {
+  padding: 16px 0;
+  width: 400px;
+  margin: 0 auto;
+
+  .login, .register, .apps {
+    border: 1px solid #dbdbdb;
+    background-color: #ffffff;
+    border-radius: 1px;
+    padding: 18px 28px;
+    margin-bottom: 20px;
+  }
+
+  .login {
+    text-align: center;
+
+    h3 {
+      text-align: center;
+      margin-bottom: 20px;
+    }
+
+    .username, .pwd {
+      width: 100%;
+      margin-bottom: 8px;
+      background-color: #fafafa;
+      padding: 8px 5px;
+      border: 1px solid #dbdbdb;
+      font-size: 11px;
+    }
+
+    .pwd {
+      margin-bottom: 20px;
+    }
+
+    .login-submit {
+      background-color: rgba(0, 154, 255, 0.72);
+      border: 0;
+      color: #ffffff;
+      font-weight: 600;
+      width: 100%;
+      height: 30px;
+      &:disabled {
+        background-color: rgba(0, 149, 246, .3);
+      }
+    }
+
+    .main-divider {
+      padding: 15px 0;
+
+      .o {
+        color: #8e8e8e;
+        text-align: center;
+        display: inline-block;
+        margin: 0 3%;
+      }
+
+      .divider {
+        display: inline-block;
+        width: 45%;
+        height: 1px;
+        background-color: #dbdbdb;
+      }
+    }
+
+    .fb-login {
+      border: 0;
+      background-color: #ffffff;
+      color: #385185;
+      font-weight: 600;
+    }
+  }
+
+  .register {
+    a {
+      font-weight: bold;
+    }
+  }
+
+  .apps {
+    border: 0;
+    background-color: #fafafa;
+    text-align: center;
+  }
+}
