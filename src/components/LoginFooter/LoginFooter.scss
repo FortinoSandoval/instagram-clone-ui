@@ -1,0 +1,34 @@
+footer {
+  padding: 0 20px;
+
+  .footerDiv {
+    max-width: 1012px;
+    margin: 0 auto;
+
+    ul {
+      padding: 0;
+      margin: 0;
+
+      li {
+        display: inline-block;
+        font-size: 13px;
+        margin-right: 6px;
+
+        a {
+          color: #00376b;
+          font-weight: 600;
+
+          &:hover {
+            color: #00376b;
+            text-decoration: none;
+          }
+        }
+      }
+    }
+
+    span {
+      font-size: 11px;
+      color: #686868;
+    }
+  }
+}
